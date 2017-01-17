@@ -27,3 +27,9 @@ Adding keys to an object
 data['dog_nickname'] = "Bobo"
 ```
 
+Enumerating the keys & values in an object:
+```
+for (var key in data) {
+  console.log(key + ": " + data[key]);
+}
+```
