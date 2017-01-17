@@ -5,6 +5,8 @@ $(document).ready(function() {
   // 3.  Wrap the images in the link_url so when you click on them, you go to the original page.
   // 4. Do the same exercise but use data2.js instead of data.js.     
   // 5. Make it pretty
+  console.log(getData());
+  function 
+  $("#gifs").html(getData())
 });
-
 
