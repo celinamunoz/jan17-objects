@@ -1,0 +1,127 @@
+# Quiz
+
+Given `data = [1, 2, 3]`
+What data type is data?
+* number
+* list
+* object
+* array
+
+Given `data = { list: [1, 2, 3] }`
+What data type is data?
+* number
+* list
+* object
+* array
+
+Given `data = { list: [1, 2, 3] }`
+What does `data['list'][1]` equal?
+* [1, 2, 3]
+* 1
+* 2
+* 3
+
+Given `data = { list: [1, 2, 3] }`
+What's the best way to add a key "dog_name" and value "Bowie" to value?
+* data = { list: [1, 2, 3], dog_name: "Bowie"}
+* data = { dog_name: "Bowie"}
+* data['dog_name'] = "Bowie"
+
+# Short exercises
+
+## 1: Iterating and enumerating
+
+var data = [1, 2, 3]
+for (var i=0; i<data.length; i++) {
+  console.log(data[i]);
+}
+
+
+# Objects review
+
+Objects store data in key/value pairs
+
+value = [1, 2, 3]
+vs
+value = { data: [1, 2, 3] }
+
+Initializing an object
+
+data = {}
+data = {key: "value"}
+
+Access key/value pairs in an object
+
+data['key']
+
+Updating an object
+
+data['key'] = "updated_value"
+
+Adding keys to an object
+
+data['new_key'] = "new value"
+
+
+# Iterating & Enumerating
+
+* iterating over arrays
+
+var data = [1, 2, 3]
+for (var i = 0; i< data.length; i++) {
+  console.log(data[i]);
+}
+
+OR 
+
+for (var i in data) { 
+  console.log(data[i]);
+}
+
+// open jsfiddle.net and try it
+
+* iterating over hashes
+
+var data = { 
+  fruits: ["apple", "pear", "orage"],
+  vegetables: ["carrot", "broccoli", "zucchini"] 
+}
+
+console.log("KEYS:");
+for (var key in data) {
+  console.log(key);
+}
+
+console.log("VALUES:");
+for (var key in data) {
+  console.log(data[key]);
+}
+
+console.log("ARRAY VALUES:");
+for (var key in data) {
+  for(var i in data[key]) {
+    console.log(data[key][i]);
+  }
+}
+
+
+
+
+// open jsfiddle.net and try it
+
+
+
+// Practice some more
+
+
+// unsolved: https://jsfiddle.net/1otvLupq/ (click fork)
+
+// solved: https://jsfiddle.net/k4g5jfxu/
+
+
+# Printing data on a page
+
+// start here and fork: https://jsfiddle.net/1zgockew/
+// solved: https://jsfiddle.net/utvdtm39/
+
+
