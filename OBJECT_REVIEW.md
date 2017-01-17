@@ -15,16 +15,19 @@ data = {dog_name: "bowie"}
 Access key/value pairs in an object
 ```
 data['dog_name'] // bowie
+data.dog_name    // bowie
 ```
 
 Updating an object
 ```
 data['dog_name'] = "BOWIE"
+data.dog_name = "BOWIE"
 ```
 
 Adding keys to an object
 ```
 data['dog_nickname'] = "Bobo"
+data.dog_nickname = "Bobo"
 ```
 
 Enumerating the keys & values in an object:
