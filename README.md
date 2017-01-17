@@ -1,6 +1,6 @@
 # Group exercise
 
-1. Open a new jsfiddle at jsfiddle.net
+Open a new jsfiddle at jsfiddle.net
 
 Add this to the to HTML section:
 
